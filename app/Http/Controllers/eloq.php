@@ -8,6 +8,10 @@ use Illuminate\Support\Facades\Storage;
 
 class eloq extends Controller
 {
+    public function trialedit(){
+      echo "Hello World!";
+    }
+  
     public function viewall(){
 
     	$records=authentication::paginate(5);
